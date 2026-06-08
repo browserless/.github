@@ -21,16 +21,16 @@
       <img src="https://img.shields.io/docker/pulls/browserless/chrome" alt="Docker pulls" />
     </a>
     <a href="https://github.com/browserless/browserless/tags">
-      <img src="https://img.shields.io/github/package-json/v/browserless/chrome" alt="Version" />
+      <img src="https://img.shields.io/github/package-json/v/browserless/browserless" alt="Version" />
     </a>
   </center>
   <br>
   <center>
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-chromium.yml/badge.svg" alt="Chromium build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-firefox.yml/badge.svg" alt="Firefox build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-webkit.yml/badge.svg" alt="Webkit build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-edge.yml/badge.svg" alt="Edge build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-multi.yml/badge.svg" alt="Mulltibrowser build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-chromium.yml/badge.svg" alt="Chromium build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-firefox.yml/badge.svg" alt="Firefox build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-webkit.yml/badge.svg" alt="Webkit build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-edge.yml/badge.svg" alt="Edge build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-multi.yml/badge.svg" alt="Mulltibrowser build" />
   </center>
   <br>
   <hr>
@@ -65,8 +65,8 @@ If you've been struggling to deploy headless browsers without running into issue
 ## External links
 
 1. [Full documentation site](https://docs.browserless.io/)
-2. [Live Debugger (using browserless.io)](https://chrome.browserless.io/)
-3. [Docker](https://github.com/browserless/browserless/pkgs/container/base)
+2. [Live Debugger (using browserless.io)](https://browserless.io/account/debugger/)
+3. [Docker](https://github.com/browserless/browserless/pkgs/container/chromium)
 
 ## Features
 
@@ -85,12 +85,13 @@ If you've been struggling to deploy headless browsers without running into issue
 
 Our [cloud accounts](https://www.browserless.io/pricing/) include all the general features plus extras, such as:
 
-- [BrowserQL](https://www.browserless.io/feature/browserql) for avoiding detectors and solving captchas
-- [Hybrid automations](https://www.browserless.io/blog/hybrid-automations-for-puppeteer/) for streaming login windows during scripts
-- [/reconnect API](https://www.browserless.io/blog/reconnect-api) for keeping browsers alive for reuse
-- [REST APIs](https://www.browserless.io/feature/rest-apis) for tasks such as retrieving HTML, PDFs or Lighthouse metrics
+- [BrowserQL](https://www.browserless.io/feature/browserql) — stealth scraping & captcha solving
+- [Hybrid automations](https://docs.browserless.io/baas/interactive-browser-sessions/hybrid-automation) — interactive login streaming
+- Persistent Sessions & Session Replay
+- Chrome Extensions & Advanced Stealth Routes
+- [REST APIs](https://www.browserless.io/feature/rest-apis) — scrape, crawl, map, search, PDFs, Lighthouse
 - Inbuilt [residential proxy](https://www.browserless.io/blog/residential-proxying/)
-- SSO, tokens and user roles
+- MCP Server & Webhook Integrations
 
 ## How it works
 
@@ -171,7 +172,7 @@ Browserless comes with built-in extension capabilities, and allows for extending
 
 You can install a first-party interactive debugger for Browserless, that makes writing scripts faster and interactive. You can take advantage of things like `debugger;` calls and the page's console output to see what's happening on the page while your script is running. All of the Chrome devtools are there at your disposal.
 
-![browserless.io logo](/assets/debugger.png)
+![Browserless debugger](https://raw.githubusercontent.com/browserless/browserless/refs/heads/main/assets/debugger.png)
 
 A small list of features includes:
 
@@ -187,7 +188,7 @@ Installing the debugger is as simple as running the `install:debugger` script _a
 
 ```sh
 $ npm run build
-$ npm run install:debugger #or npm install:dev
+$ npm run install:debugger
 ```
 
 You will then see the debugger url during the startup process.
