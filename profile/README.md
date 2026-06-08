@@ -66,7 +66,7 @@ If you've been struggling to deploy headless browsers without running into issue
 
 1. [Full documentation site](https://docs.browserless.io/)
 2. [Live Debugger (using browserless.io)](https://browserless.io/account/debugger/)
-3. [Docker](https://github.com/browserless/browserless/pkgs/container/base)
+3. [Docker](https://github.com/browserless/browserless/pkgs/container/chromium)
 
 ## Features
 
@@ -86,11 +86,19 @@ If you've been struggling to deploy headless browsers without running into issue
 Our [cloud accounts](https://www.browserless.io/pricing/) include all the general features plus extras, such as:
 
 - [BrowserQL](https://www.browserless.io/feature/browserql) for avoiding detectors and solving captchas
-- [Hybrid automations](https://www.browserless.io/blog/hybrid-automations-for-puppeteer/) for streaming login windows during scripts
-- [/reconnect API](https://www.browserless.io/blog/reconnect-api) for keeping browsers alive for reuse
+- [Hybrid automations](https://docs.browserless.io/baas/interactive-browser-sessions/hybrid-automation) for streaming login windows during scripts
+- Persistent Sessions
+- Session Replay
+- Chrome Extensions Support
+- Advanced Captcha/Stealth Routes
 - [REST APIs](https://www.browserless.io/feature/rest-apis) for tasks such as retrieving HTML, PDFs or Lighthouse metrics
 - Inbuilt [residential proxy](https://www.browserless.io/blog/residential-proxying/)
-- SSO, tokens and user roles
+- /smart-scrape API
+- /crawl API
+- /map API
+- /search API
+- MCP Server
+- Webhook Integrations
 
 ## How it works
 
@@ -187,7 +195,7 @@ Installing the debugger is as simple as running the `install:debugger` script _a
 
 ```sh
 $ npm run build
-$ npm run install:debugger #or npm install:dev
+$ npm run install:debugger
 ```
 
 You will then see the debugger url during the startup process.
