@@ -21,16 +21,16 @@
       <img src="https://img.shields.io/docker/pulls/browserless/chrome" alt="Docker pulls" />
     </a>
     <a href="https://github.com/browserless/browserless/tags">
-      <img src="https://img.shields.io/github/package-json/v/browserless/chrome" alt="Version" />
+      <img src="https://img.shields.io/github/package-json/v/browserless/browserless" alt="Version" />
     </a>
   </center>
   <br>
   <center>
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-chromium.yml/badge.svg" alt="Chromium build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-firefox.yml/badge.svg" alt="Firefox build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-webkit.yml/badge.svg" alt="Webkit build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-edge.yml/badge.svg" alt="Edge build" />
-    <img src="https://github.com/browserless/chrome/actions/workflows/docker-multi.yml/badge.svg" alt="Mulltibrowser build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-chromium.yml/badge.svg" alt="Chromium build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-firefox.yml/badge.svg" alt="Firefox build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-webkit.yml/badge.svg" alt="Webkit build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-edge.yml/badge.svg" alt="Edge build" />
+    <img src="https://github.com/browserless/browserless/actions/workflows/docker-multi.yml/badge.svg" alt="Mulltibrowser build" />
   </center>
   <br>
   <hr>
@@ -65,7 +65,7 @@ If you've been struggling to deploy headless browsers without running into issue
 ## External links
 
 1. [Full documentation site](https://docs.browserless.io/)
-2. [Live Debugger (using browserless.io)](https://chrome.browserless.io/)
+2. [Live Debugger (using browserless.io)](https://browserless.io/account/debugger/)
 3. [Docker](https://github.com/browserless/browserless/pkgs/container/base)
 
 ## Features
