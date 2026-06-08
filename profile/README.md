@@ -85,20 +85,13 @@ If you've been struggling to deploy headless browsers without running into issue
 
 Our [cloud accounts](https://www.browserless.io/pricing/) include all the general features plus extras, such as:
 
-- [BrowserQL](https://www.browserless.io/feature/browserql) for avoiding detectors and solving captchas
-- [Hybrid automations](https://docs.browserless.io/baas/interactive-browser-sessions/hybrid-automation) for streaming login windows during scripts
-- Persistent Sessions
-- Session Replay
-- Chrome Extensions Support
-- Advanced Captcha/Stealth Routes
-- [REST APIs](https://www.browserless.io/feature/rest-apis) for tasks such as retrieving HTML, PDFs or Lighthouse metrics
+- [BrowserQL](https://www.browserless.io/feature/browserql) — stealth scraping & captcha solving
+- [Hybrid automations](https://docs.browserless.io/baas/interactive-browser-sessions/hybrid-automation) — interactive login streaming
+- Persistent Sessions & Session Replay
+- Chrome Extensions & Advanced Stealth Routes
+- [REST APIs](https://www.browserless.io/feature/rest-apis) — scrape, crawl, map, search, PDFs, Lighthouse
 - Inbuilt [residential proxy](https://www.browserless.io/blog/residential-proxying/)
-- /smart-scrape API
-- /crawl API
-- /map API
-- /search API
-- MCP Server
-- Webhook Integrations
+- MCP Server & Webhook Integrations
 
 ## How it works
 
