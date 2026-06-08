@@ -179,7 +179,7 @@ Browserless comes with built-in extension capabilities, and allows for extending
 
 You can install a first-party interactive debugger for Browserless, that makes writing scripts faster and interactive. You can take advantage of things like `debugger;` calls and the page's console output to see what's happening on the page while your script is running. All of the Chrome devtools are there at your disposal.
 
-![browserless.io logo](/assets/debugger.png)
+![Browserless debugger](https://raw.githubusercontent.com/browserless/browserless/refs/heads/main/assets/debugger.png)
 
 A small list of features includes:
 
